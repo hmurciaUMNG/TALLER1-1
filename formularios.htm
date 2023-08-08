@@ -1,0 +1,18 @@
+<HTML>
+<H1>Formularios</H1>
+<B>Nombre</B> <input id="nombre">
+<button onclick="salude()">Saludos</button>
+<H1>Transformacion de Traslación</H1>
+<p>VECTOR ORIGINAL</p>
+<p>Coordenada inicial <input id="c_i" size=8></p>
+<p>Coordenada final <input id="c_f" size=8></p>
+<p>VECTOR TRASLACION</p>
+<p>Coordenada traslación <input id="c_t" size=8></p>
+<button onclick="">Aceptar</button>
+<SCRIPT>
+function salude() {
+  const name = document.getElementById('nombre').value
+  alert("Hola " + name + ", buenas tardes!");
+}
+</SCRIPT>
+</HTML>
